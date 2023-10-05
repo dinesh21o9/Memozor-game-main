@@ -1,0 +1,166 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* font-family: 'Press Start 2P', cursive; */
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* Form container */
+  form {
+    padding: 40px;
+    border-radius: 4px;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 500px;
+  }
+  
+  /* Form header */
+  h1 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: yellow;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 0;
+  }
+
+  h3{
+    font-family: 'Press Start 2P', cursive;
+    text-align: left;
+    color: yellow;
+    font-weight: 300;
+    font-size:20px;
+    margin-top: 0;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    height: 60px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: rgba(148, 55, 255, 0.635);
+    color: white;
+    font-size: medium;
+    font-family: 'Press Start 2P', cursive;
+    /* font-weight: 500; */
+  }
+  
+  input[type="text"]:hover,
+  input[type="email"]:hover,
+  input[type="password"]:hover {
+    background-color: rgba(148, 55, 255, 0.8);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  input[type="text"]::placeholder,
+  input[type="email"]::placeholder,
+  input[type="password"]::placeholder {
+    size: 30px;
+    color: white;
+    font-weight: 500;
+  }
+  
+  em{
+    color: white;
+  }
+
+  p{
+    font-family: 'Press Start 2P', cursive;
+    line-height: 30px;
+    color: white;
+  }
+  /* Sign up button */
+  button {
+    background-color: rgba(212, 252, 52, 0.678);
+    border-color: rgba(212, 252, 52, 0.733);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 60px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 15px;
+    font-weight: 500;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: rgba(212, 252, 52, 0.8);
+  }
+  
+  /* Login link */
+  a {
+    color: #9437ffa2;
+    text-decoration: none;
+  }
+  
+  span {
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .home-box{
+    width: 55%;
+  }
+
+
+
+  @media (max-width: 768px) {
+    
+    body {
+      background-image: none; /* Remove the background image */
+    }
+  
+    /* Form container */
+    form {
+      width: 80%; /* Make the form container wider for better mobile usability */
+      padding: 20px;
+    }
+  
+    /* Form header */
+    h1 {
+      font-size: 36px; /* Increase font size for mobile */
+      margin-top: 0;
+    }
+  
+    h3 {
+      font-size: 16px; /* Increase font size for mobile */
+      margin-top: 0;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      font-size: 16px; /* Increase font size for input fields */
+    }
+  
+    p {
+      font-size: 16px; /* Increase font size for paragraphs */
+    }
+  
+    /* Sign up button */
+    button {
+      font-size: 16px; /* Increase font size for the button */
+    }
+  }
