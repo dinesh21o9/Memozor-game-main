@@ -10,4 +10,5 @@ within the page, and integrated audio-play package.
 
 Make sure you create an Account and enjoy playing the game!
 (Also no need to memorize the pattern if you are smart enough to find out the crack to this game -_+)
+The database is hosted at Clever Cloud. (You can find the credentials to connect to database in database.php)
 The website is live hosted at http://memozor.rf.gd/index.php
